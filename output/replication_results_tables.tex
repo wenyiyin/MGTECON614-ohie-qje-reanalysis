@@ -1,0 +1,151 @@
+% Written by code/replicate_tables.py. Do not edit by hand.
+
+\paragraph{Table III: first stage and public-program outcomes.}
+Table~\ref{tab:rep-III} reports the first-stage rows that can be constructed from the public files. The Medicaid and self-reported insurance rows reproduce the published values. The TANF/SNAP rows are reported as public-file estimates; these rows do not match the published values as closely, so I do not use them in the reanalysis. The credit-report column in the published table is not reproduced because those data are not public.
+
+\begin{table}[H]\centering\scriptsize
+\caption{Replication of \citet{Finkelstein2012} Table III: first-stage estimates in the public files. Each cell reports mine (SE) / paper.}
+\label{tab:rep-III}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+Outcome & Full control & Full FS & Survey control & Survey FS \\
+\midrule
+Ever on Medicaid & 0.141 / 0.141 & 0.256\textsuperscript{***} (0.004) / 0.256 & 0.135 / 0.135 & 0.290\textsuperscript{***} (0.007) / 0.290 \\
+Ever on OHP Standard & 0.027 / 0.027 & 0.264\textsuperscript{***} (0.003) / 0.264 & 0.026 / 0.026 & 0.302\textsuperscript{***} (0.005) / 0.302 \\
+\# months on Medicaid & 1.408 / 1.408 & 3.355\textsuperscript{***} (0.045) / 3.355 & 1.509 / 1.509 & 3.943\textsuperscript{***} (0.090) / 3.943 \\
+On Medicaid, end of study period & 0.106 / 0.106 & 0.148\textsuperscript{***} (0.003) / 0.148 & 0.105 / 0.105 & 0.189\textsuperscript{***} (0.006) / 0.189 \\
+Currently have any insurance (self-report) &  &  & 0.325 / 0.325 & 0.179\textsuperscript{***} (0.008) / 0.179 \\
+Currently have private insurance (self-report) &  &  & 0.128 / 0.128 & -0.008 (0.005) / -0.008 \\
+Currently on Medicaid (self-report) &  &  & 0.117 / 0.117 & 0.197\textsuperscript{***} (0.006) / 0.197 \\
+Currently on Medicaid &  &  & 0.105 / 0.105 & 0.191\textsuperscript{***} (0.006) / 0.191 \\
+Ever on TANF & 0.031 / 0.031 & 0.002 (0.001) / 0.001 & 0.023 / 0.023 & 0.002 (0.003) / 0.002 \\
+TANF benefits (\$) & 124.049 / 124.000 & 2.338 (6.527) / -1.659 & 99.686 / 100.000 & 4.281 (11.961) / -4.991 \\
+Ever on food stamps & 0.606 / 0.606 & 0.028\textsuperscript{***} (0.004) / 0.017 & 0.622 / 0.622 & 0.027\textsuperscript{***} (0.008) / 0.023 \\
+Food stamp benefits (\$) & 1776.281 / 1776.000 & 95.363\textsuperscript{***} (20.686) / 61.300 & 2202.239 / 2202.000 & 96.995\textsuperscript{**} (46.482) / 122.400 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[H]\centering\scriptsize
+\caption{Replication of \citet{Finkelstein2012} Table V: health-care utilization, survey data.}
+\label{tab:rep-V}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+Panel & Outcome & Control & ITT & ITT & LATE & LATE & \\
+ & & mean & (mine) & (paper) & (mine, SE) & (paper) & $N$ \\
+\midrule
+ & Prescription drugs currently & 0.637 & 0.025 & 0.025 & 0.088\textsuperscript{***} (0.029) & 0.088 & 18{,}308 \\
+ & Outpatient visits last 6m & 0.574 & 0.062 & 0.062 & 0.212\textsuperscript{***} (0.025) & 0.212 & 23{,}492 \\
+ & ER visits last 6m & 0.261 & 0.006 & 0.006 & 0.022 (0.023) & 0.022 & 23{,}514 \\
+ & Inpatient hosp. admissions last 6m & 0.072 & 0.002 & 0.002 & 0.008 (0.014) & 0.008 & 23{,}573 \\
+ & \# Prescription drugs & 2.318 & 0.100 & 0.100 & 0.347\textsuperscript{**} (0.176) & 0.347 & 18{,}297 \\
+ & \# Outpatient visits & 1.914 & 0.314 & 0.314 & 1.083\textsuperscript{***} (0.182) & 1.083 & 23{,}441 \\
+ & \# ER visits & 0.470 & 0.007 & 0.007 & 0.026 (0.056) & 0.026 & 23{,}481 \\
+ & \# Inpatient admissions & 0.097 & 0.006 & 0.006 & 0.021 (0.021) & 0.021 & 23{,}539 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[H]\centering\scriptsize
+\caption{Replication of \citet{Finkelstein2012} Table VI: compliance with recommended preventive care.}
+\label{tab:rep-VI}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+Panel & Outcome & Control & ITT & ITT & LATE & LATE & \\
+ & & mean & (mine) & (paper) & (mine, SE) & (paper) & $N$ \\
+\midrule
+ & Blood cholesterol checked (ever) & 0.625 & 0.033 & 0.033 & 0.114\textsuperscript{***} (0.026) & 0.114 & 23{,}390 \\
+ & Blood tested for high blood sugar/diab. & 0.604 & 0.026 & 0.026 & 0.090\textsuperscript{***} (0.026) & 0.090 & 23{,}374 \\
+ & Mammogram within last 12m (women>=40) & 0.298 & 0.055 & 0.055 & 0.184\textsuperscript{***} (0.040) & 0.187 & 7{,}927 \\
+ & Pap test within last 12m (women) & 0.406 & 0.051 & 0.051 & 0.183\textsuperscript{***} (0.034) & 0.183 & 13{,}924 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[H]\centering\scriptsize
+\caption{Replication of \citet{Finkelstein2012} Table VIII: financial strain, survey data.}
+\label{tab:rep-VIII}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+Panel & Outcome & Control & ITT & ITT & LATE & LATE & \\
+ & & mean & (mine) & (paper) & (mine, SE) & (paper) & $N$ \\
+\midrule
+ & Any OOP medical expenses, last 6m & 0.555 & -0.058 & -0.058 & -0.200\textsuperscript{***} (0.026) & -0.200 & 23{,}426 \\
+ & Owe money for medical expenses currently & 0.597 & -0.052 & -0.052 & -0.180\textsuperscript{***} (0.026) & -0.180 & 23{,}451 \\
+ & Borrowed/skipped bills for medical debt, last 6m & 0.364 & -0.045 & -0.045 & -0.154\textsuperscript{***} (0.025) & -0.154 & 23{,}410 \\
+ & Refused treatment because of medical debt, last 6m & 0.081 & -0.011 & -0.011 & -0.036\textsuperscript{**} (0.014) & -0.036 & 22{,}571 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[H]\centering\scriptsize
+\caption{Replication of \citet{Finkelstein2012} Table IX: mortality and self-reported health.}
+\label{tab:rep-IX}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+Panel & Outcome & Control & ITT & ITT & LATE & LATE & \\
+ & & mean & (mine) & (paper) & (mine, SE) & (paper) & $N$ \\
+\midrule
+A & Alive through September 2009 & 0.992 & 0.000 & 0.000 & 0.001 (0.003) & 0.001 & 74{,}922 \\
+B & Self-reported health good/VG/excellent & 0.548 & 0.039 & 0.039 & 0.133\textsuperscript{***} (0.026) & 0.133 & 23{,}361 \\
+B & Self-reported health not poor & 0.860 & 0.029 & 0.029 & 0.099\textsuperscript{***} (0.018) & 0.099 & 23{,}361 \\
+B & Health same/better last 6m & 0.714 & 0.033 & 0.033 & 0.113\textsuperscript{***} (0.023) & 0.113 & 23{,}407 \\
+B & \# days physical health good (past 30) & 21.862 & 0.381 & 0.381 & 1.317\textsuperscript{**} (0.563) & 1.317 & 21{,}881 \\
+B & \# days not impaired (past 30) & 20.329 & 0.459 & 0.459 & 1.585\textsuperscript{***} (0.606) & 1.585 & 21{,}384 \\
+B & \# days mental health good (past 30) & 18.738 & 0.603 & 0.603 & 2.082\textsuperscript{***} (0.640) & 2.082 & 21{,}601 \\
+B & Did not screen positive for depression & 0.671 & 0.023 & 0.023 & 0.078\textsuperscript{***} (0.025) & 0.078 & 23{,}147 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[H]\centering\scriptsize
+\caption{Replication of \citet{Finkelstein2012} Table X: access, quality, and happiness.}
+\label{tab:rep-X}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+Panel & Outcome & Control & ITT & ITT & LATE & LATE & \\
+ & & mean & (mine) & (paper) & (mine, SE) & (paper) & $N$ \\
+\midrule
+ & Have usual place of clinic-based care & 0.499 & 0.099 & 0.099 & 0.339\textsuperscript{***} (0.027) & 0.339 & 21{,}541 \\
+ & Have personal doctor & 0.490 & 0.081 & 0.081 & 0.280\textsuperscript{***} (0.026) & 0.280 & 23{,}501 \\
+ & Got all needed medical care, last 6m & 0.684 & 0.069 & 0.069 & 0.239\textsuperscript{***} (0.022) & 0.239 & 22{,}904 \\
+ & Got all needed drugs, last 6m & 0.765 & 0.056 & 0.056 & 0.195\textsuperscript{***} (0.019) & 0.195 & 22{,}825 \\
+ & Didn't use ER for nonemergency, last 6m & 0.916 & -0.001 & -0.001 & -0.004 (0.015) & -0.004 & 23{,}530 \\
+ & Quality of care good/VG/excellent (conditional) & 0.708 & 0.043 & 0.043 & 0.142\textsuperscript{***} (0.027) & 0.142 & 16{,}316 \\
+ & Very happy or pretty happy & 0.594 & 0.056 & 0.056 & 0.191\textsuperscript{***} (0.026) & 0.191 & 23{,}416 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\paragraph{Table XI: treatment effects at different survey waves.}
+Table~\ref{tab:rep-XI} reports standardized ITT effects at the initial, six-month, and main survey waves. Each cell reports mine (SE) / paper.
+
+\begin{table}[H]\centering\scriptsize
+\caption{Replication of \citet{Finkelstein2012} Table XI: estimated effects of lottery at different times.}
+\label{tab:rep-XI}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrr}
+\toprule
+Domain & Initial survey & Six-month survey & Main survey \\
+\midrule
+Utilization (extensive margin) & 0.004 (0.009) / 0.004 & 0.047\textsuperscript{*} (0.021) / 0.047 & 0.050\textsuperscript{***} (0.012) / 0.050 \\
+Utilization (total) & -0.000 (0.009) / -0.000 & 0.027 (0.021) / 0.027 & 0.040\textsuperscript{***} (0.012) / 0.040 \\
+Financial strain & -0.035\textsuperscript{***} (0.010) / -0.035 & -0.099\textsuperscript{***} (0.021) / -0.099 & -0.089\textsuperscript{***} (0.010) / -0.089 \\
+Health & 0.042\textsuperscript{***} (0.010) / 0.042 & 0.097\textsuperscript{***} (0.025) / 0.097 & 0.061\textsuperscript{***} (0.012) / 0.061 \\
+Access & 0.047\textsuperscript{***} (0.008) / 0.047 & 0.075\textsuperscript{***} (0.020) / 0.075 & 0.119\textsuperscript{***} (0.009) / 0.119 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

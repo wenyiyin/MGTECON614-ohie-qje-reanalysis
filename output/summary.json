@@ -1,0 +1,51 @@
+{
+  "sample_sizes": {
+    "full_sample": 74922,
+    "survey_12m_responders": 23741,
+    "balanced_0m_12m": 16566
+  },
+  "replication": {
+    "doc_num_mod_12m": {
+      "coef": 1.0827336040064268,
+      "se": 0.18207090706119622,
+      "paper_late": 1.083
+    },
+    "cost_any_oop_12m": {
+      "coef": -0.19950676274064522,
+      "se": 0.026209301954055117,
+      "paper_late": -0.2
+    },
+    "health_genflip_bin_12m": {
+      "coef": 0.13287890631674,
+      "se": 0.026416337470329253,
+      "paper_late": 0.13
+    },
+    "nodep_screen_12m": {
+      "coef": 0.07831048383009623,
+      "se": 0.02468806622527192,
+      "paper_late": 0.078
+    }
+  },
+  "reanalysis": {
+    "doc_num_mod_12m": {
+      "original_iv": 1.0827336040064268,
+      "adj_iv": 1.1203016472008809,
+      "did_itt": 0.341298074222454
+    },
+    "cost_any_oop_12m": {
+      "original_iv": -0.19950676274064522,
+      "adj_iv": -0.18319323113517852,
+      "did_itt": -0.04828707793747507
+    },
+    "health_genflip_bin_12m": {
+      "original_iv": 0.13287890631674,
+      "adj_iv": 0.0871929267897053,
+      "did_itt": 0.011697656140961169
+    },
+    "notbaddays_ment_12m": {
+      "original_iv": 2.082001008867436,
+      "adj_iv": 1.2671498544871047,
+      "did_itt": 0.11326353371525116
+    }
+  }
+}

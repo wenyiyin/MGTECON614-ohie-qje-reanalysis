@@ -1,0 +1,41 @@
+{
+  "panelA": {
+    "% Female": 0.5570661816891412,
+    "% 50-64": 0.26663413768630234,
+    "% 20-50": 0.7333658623136976,
+    "% English preferred": 0.9219748048261178,
+    "% MSA": 0.7731446568779665,
+    "ZIP median household income": null
+  },
+  "panelB": {
+    "Lottery list: % Female": 0.5906222798508506,
+    "Lottery list: % 50-64": 0.31591774539245215,
+    "Lottery list: % 20-50": 0.6840822546075479,
+    "Lottery list: % English": 0.9172573747643248,
+    "Lottery list: % MSA": 0.7514419199315869,
+    "Lottery list: ZIP median household income": null,
+    "Survey: % White": 0.8201318083127065,
+    "Survey: % Black": 0.03841935549059687,
+    "Survey: % Hispanic/Latino": 0.1233605344622662,
+    "Survey: ever diagnosed diabetes": 0.17510855780395662,
+    "Survey: ever diagnosed asthma": 0.27570440929376017,
+    "Survey: ever diagnosed high blood pressure": 0.39865537725643135,
+    "Survey: ever diagnosed emphysema/chronic bronchitis": 0.1285688589267095,
+    "Survey: ever diagnosed depression/anxiety": 0.5571140417406228,
+    "Survey: education less than high school": 0.17720961616164388,
+    "Survey: education high school/GED": 0.49078547917708426,
+    "Survey: education vocational/2-year": 0.21962844731112477,
+    "Survey: education 4-year college or more": 0.11237645735014709,
+    "Survey: income <50% FPL": 0.4063429299966439,
+    "Survey: income 50-75% FPL": 0.13773367595406125,
+    "Survey: income 75-100% FPL": 0.14029135105705112,
+    "Survey: income 100-150% FPL": 0.17676869285420196,
+    "Survey: income above 150% FPL": 0.13886335013804177,
+    "Survey: average household income": null,
+    "Survey: % Any insurance": 0.325170887897899,
+    "Survey: % OHP/Medicaid": 0.11685134674660541,
+    "Survey: % Private": 0.12828627705420448,
+    "Survey: % Other insurance": 0.10182025791234854,
+    "Survey: # months of last 6 insured": 1.738089479650006
+  }
+}
