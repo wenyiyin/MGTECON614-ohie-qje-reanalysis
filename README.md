@@ -1,11 +1,8 @@
 # OHIE QJE 2012 --- Replication and Reanalysis
 
-Replication and reanalysis of Finkelstein et al. (QJE 2012) using the public
-OHIE files and estimator diagnostics from the course notes.
+Replication and reanalysis of Finkelstein et al. (QJE 2012) using the public OHIE files and estimator diagnostics.
 
 ## How to run
-
-From this `submission/` directory:
 
 ```bash
 # (1) basic replication + simple reanalysis (baseline adjustment, 2-period DiD)
@@ -48,7 +45,7 @@ latexmk -pdf -interaction=nonstopmode ohie_reanalysis_full.tex
 | `summary.json` | Small top-level summary with sample sizes and selected replication/reanalysis estimates. |
 | `reanalysis_decomposition.csv` | BBMT'22 2SLS decomposition table: per-outcome $\hat\beta_{2SLS}$, $\max\lvert \mathbb{E}[Z\mid W]-\mathbb{L}[Z\mid W]\rvert$, implied always-taker share, and numerator contributions by $(Z,D)$ cell, across three covariate specifications. Produced by `reanalysis.py`. |
 | `reanalysis_weights.json` | Diagnostics for each regression: number of negative ex-post weights, max $n\cdot C_i$, effective sample size $n_\text{eff}=1/\sum C_i^2$, and BBMT sub-blocks. Produced by `reanalysis.py`. |
-| `late_weighting_diagnostics.csv` | Stratum-level comparison of unconditional-complier weights $P(W)\pi(W)$ and covariate-adjusted 2SLS weights $P(W)\operatorname{Var}(Z\mid W)\pi(W)$. Produced by `reanalysis.py`. |
+| `late_weighting_diagnostics.csv` | Stratum-level comparison of unconditional-complier weights $P(W) \pi(W)$ and covariate-adjusted 2SLS weights $P(W)\operatorname{Var}(Z\mid W)\pi(W)$. Produced by `reanalysis.py`. |
 
 ## Figures (`figures/`)
 
@@ -65,7 +62,7 @@ latexmk -pdf -interaction=nonstopmode ohie_reanalysis_full.tex
 
 | File | Contents |
 | --- | --- |
-| `ohie_reanalysis_full.tex` / `.pdf` | **Main reanalysis note.** Method and results for OLS ex-post weights, the BBMT decomposition, and the two-period DiD check. Self-contained. |
+| `ohie_reanalysis_full.tex` / `.pdf` | **Main reanalysis note.** Method and results for OLS ex-post weights, the BBMT decomposition, and the two-period DiD check.|
 
 ## Reanalysis design
 
@@ -77,7 +74,7 @@ The selected targets from the paper:
 - Table IX, Panel B --- self-reported health good/very good/excellent
 - Table IX, Panel B --- did not screen positive for depression
 
-Layered on top:
+Reanalysis Methods:
 
 - FWL + covariate-adjusted OLS, ex-post weights under the heterogeneous-effect
   model, and the omitted-variable-bias term under saturated strata.
