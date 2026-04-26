@@ -45,7 +45,7 @@ latexmk -pdf -interaction=nonstopmode ohie_reanalysis_full.tex
 | `summary.json` | Small top-level summary with sample sizes and selected replication/reanalysis estimates. |
 | `reanalysis_decomposition.csv` | BBMT'22 2SLS decomposition table: per-outcome $\hat\beta_{2SLS}$, $\max\lvert \mathbb{E}[Z\mid W]-\mathbb{L}[Z\mid W]\rvert$, implied always-taker share, and numerator contributions by $(Z,D)$ cell, across three covariate specifications. Produced by `reanalysis.py`. |
 | `reanalysis_weights.json` | Diagnostics for each regression: number of negative ex-post weights, max $n\cdot C_i$, effective sample size $n_\text{eff}=1/\sum C_i^2$, and BBMT sub-blocks. Produced by `reanalysis.py`. |
-| `late_weighting_diagnostics.csv` | Stratum-level comparison of unconditional-complier weights $P(W) \pi(W)$ and covariate-adjusted 2SLS weights $P(W)\operatorname{Var}(Z\mid W)\pi(W)$. Produced by `reanalysis.py`. |
+| `late_weighting_diagnostics.csv` | Stratum-level comparison of unconditional-complier weights $P(W)\pi(W)$ and covariate-adjusted 2SLS weights $P(W)Var(Z\mid W)\pi(W)$. Produced by `reanalysis.py`. |
 
 ## Figures (`figures/`)
 
